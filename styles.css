@@ -87,3 +87,20 @@ ul li.active a{
     align-items: center;
 }
 
+@media (max-width: 600px){
+    .glass-container{
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+    
+    .glass-container h1{
+        font-size: 1.5rem;
+    }
+
+    .glass-container p{
+        font-size: 1rem;
+    }
+        
+}
+
