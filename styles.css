@@ -13,6 +13,8 @@ body{
    background-attachment: fixed;
    background-position: center;
    min-height: 100vh;
+   cursor: url("ufo.png"), auto;
+
 }
 
 header{
@@ -42,7 +44,9 @@ ul li a{
     padding: 5px 20px;
     border: 1px solid transparent;
     transition: 0.5 ease;
+    cursor: url("alien.png"), pointer;
 }
+
 
 ul li a:hover{
     background-color: #0D0F30;
@@ -143,6 +147,10 @@ ul li.active a{
     border-radius: 15px;
     padding: 20px 40px;
     margin-top: 20px;
+}
+
+.pointer li a href{
+    cursor: url("alien.png"), pointer;
 }
 
 
